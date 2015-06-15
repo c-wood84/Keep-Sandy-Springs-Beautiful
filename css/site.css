@@ -1,0 +1,229 @@
+/* Basic Styles */
+
+img { border: none;
+}
+
+body	{ margin:0;
+		  padding:0;
+		  background:#89b6f9;
+}
+
+#wrap	{ width:900px;
+		  margin:0 auto;
+		  padding:0;
+		  font-family:Verdana, Arial, Helvetica, sans-serif;
+		  font-size:12px;
+		  border:10px solid #ffffff;
+		  
+}
+
+#BodyCopy	{ margin:0;
+			  padding:0;
+			  background:#86bc25;
+
+}
+
+/* Header Styles */
+
+#header	{ height:188px;
+		  border-bottom:10px solid #ffffff;
+		  margin:0;
+		  padding:0;
+}
+
+.logo	{ margin:0;
+		  padding:90px 0 0 60px;
+		  float:left;
+}
+
+.title	{ margin:0;
+		  padding:108px 150px 0 0;
+		  height:40px;
+		  float:right;
+		  
+
+}
+
+
+/* Content Area */
+
+#Content_Home	{ width:655px;
+			  margin:0 0 0 5px;
+			  padding:10px 5px 10px 0;
+			  float:left;
+			  
+}
+
+#Content_Home h3	{ margin:0 0 0 15px;
+			  padding:0;
+			  color:#ffffff;
+			  font-size:1.3em;
+}
+
+#Content_Home p	{ margin:12px 0 0 15px;
+			  padding:0 0 15px 0;
+			  line-height:1.5em;
+			  font-size:12px;
+			  color:#ffffff;
+
+}
+
+#Content_Home a	{ color:#dfce3b;
+
+}
+
+#Content	{ width:655px;
+			  margin:0 0 0 5px;
+			  padding:10px 5px 10px 0;
+			  float:left;
+			  border-right:10px solid #ffffff;
+			  
+}
+
+#php	{ margin:12px 0 0 15px;
+			  padding:0 0 15px 0;
+			  line-height:1.5em;
+			  font-size:12px;
+			  color:#ffffff;
+}
+
+#Content h3	{ margin:0 0 0 15px;
+			  padding:0;
+			  color:#ffffff;
+			  font-size:1.3em;
+}
+
+#Content h5	{ margin:0 0 0 15px;
+			  padding:0;
+			  color:#dfce3b;
+			  font-size:1em;
+}
+
+#Content p	{ margin:12px 0 0 15px;
+			  padding:0 0 15px 0;
+			  line-height:1.5em;
+			  font-size:12px;
+			  color:#ffffff;
+}
+
+#Content a	{ color:#dfce3b;
+
+}
+
+#Content ul	{ margin:0;
+			  padding:5px 0 5px 25px;
+			  list-style:circle;
+}
+
+#Content li	{ margin:0;
+		      padding:3px 0 3px 0;
+			  color:#ffffff;
+}
+
+.ContentPhoto	{ margin:7px;
+				  padding:3px;
+				  float:right;
+				  border:1px dotted #4f740e;
+
+}
+
+#PhotoBoard	{ margin:5px 0 0 0;
+			  padding:8px 0 15px 0;
+
+}
+
+.city	{ margin:0 0 0 12px;
+		  padding:0;
+		  float:left;
+		  }
+
+.forrest	{ margin:0 0 0 13px;
+		  padding:0;
+		  float:left;
+		  }
+
+.creek	{ margin:0 0 0 13px;
+		  padding:0;
+		  float:left;
+		  }
+		  
+.gazebo	{ margin:0 5px 0 0;
+		  padding:0;
+		  float:right;
+		  }
+
+
+/* Navigation Panal Styles */
+
+
+#navbar_Home	{ margin:0;
+	      padding:10px 0 0 0;
+		  width:210px;
+		  float:right;
+		  border-left:10px solid #ffffff;
+
+}
+
+#navbar_Home p	{ font-size:11px;
+			  color:#ffffff;
+			  line-height:1.5em;
+			  margin:4px 0 0 4px;
+			  padding:5px;
+
+}
+
+#navbar	{ margin:0;
+	      padding:10px 0 0 0;
+		  width:225px;
+		  float:right;
+
+}
+
+#navbar p	{ font-size:11px;
+			  color:#ffffff;
+			  line-height:1.5em;
+			  margin:4px 0 0 4px;
+			  padding:5px;
+
+}
+
+
+/* Footer Styles */
+
+#footer	{ margin:0 auto;
+		  padding:12px 0 5px 0;
+		  width:900px;
+		  font-size:10px;
+		  text-align:center;
+		  color:#ffffff;
+		  
+		  
+}
+
+
+/* Contact Form Styles */
+form	{ width:300px; }
+label	{ width:200px; display:block; color:#dfce3b; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; }
+#name	{ background-color:#ffffff; color:#86bc25; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;  text-align:left; }
+#email	{background-color:#ffffff; color:#86bc25; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; text-align:left;}
+#message { background-color:#ffffff; color:#86bc25; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;  text-align:left;}
+#send	{ margin:0 0 0 15px;}
+fieldset	{ border:0; }
+
+
+/* Clear Fix Occurs for floating objects */
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
